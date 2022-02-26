@@ -2,12 +2,16 @@
 title: "documento 1"
 author: "Codea"
 date: '2022-02-26'
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+[el exito](http://rmarkdown.rstudio.com)
 
 ## R Markdown
 
